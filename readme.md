@@ -1,0 +1,4 @@
+# Run
+```
+node solution.js
+``` 
