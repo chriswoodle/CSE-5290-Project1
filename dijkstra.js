@@ -17,7 +17,6 @@ class Dijkstra {
         this.end = end;
         this.pq.enqueue(start, 0)
         this.distance[start.name] = 0;
-        console.log(this.pq)
     }
 
     search() {
