@@ -1,6 +1,6 @@
 # Setup
 
-Install [NodeJS](https://nodejs.org/en/)
+Install [NodeJS v12 or greater](https://nodejs.org/en/)
 
 # Run
 From a terminal/cmd
