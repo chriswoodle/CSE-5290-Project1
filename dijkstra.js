@@ -38,9 +38,9 @@ class Dijkstra {
                 this.distance[w.name] = this.distance[w.name] || 0;
                 this.distance[v.name] = this.distance[v.name] || 0;
 
-                //  If there is shorted path to v through u. 
+                //  If there is shorted path to w through v. 
                 if (!this.distance[w.name] || this.distance[w.name] > this.distance[v.name] + weight) {
-                    // Updating distance of v 
+                    // Updating distance of w 
                     this.distance[w.name] = this.distance[v.name] + weight;
                     this.map[w.name] = v;
                     this.pq.enqueue(w, this.distance[w.name]);
